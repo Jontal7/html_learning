@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(0, 250, 237);
+}
+
+body {
+    margin: 15px 15px 0 15px;
+}
+
+.CuadroBase {
+    overflow: hidden;
+}
+
+.encabezado {
+    height: auto;
+    width: 100%;
+    background: darkcyan;
+    min-height: 200px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.CuadroPq {
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+}
+
+.Right {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.CuadroGd {
+    background: darkcyan;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    background-color: darkcyan;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(85, 85, 85);
+    text-align: center;
+    padding: 16px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

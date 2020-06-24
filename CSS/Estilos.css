@@ -1,0 +1,91 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        html {
+            background-image: url(../imagenes/BackgroundHTML.jpg);
+        }
+        
+        body {
+            width: 900px;
+            height: 1000px;
+            margin: 0px auto;
+        }
+        
+        .franjasup {
+            background-color: rgb(221, 186, 27);
+            width: 998px;
+            height: 50px;
+            border: 5px dashed white;
+        }
+        
+        header {
+            color: gainsboro;
+            font-size: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            width: 1000px;
+            height: 200px;
+            background-color: dimgray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #izq {
+            width: 900px;
+            height: 600px;
+            background-color: hsla(54, 37%, 53%, 0.774);
+            float: left;
+            padding: 50px;
+        }
+        
+        ul {
+            color: linen;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 900;
+            margin-top: 60px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            margin-left: 60px;
+            list-style-position: inside;
+        }
+        
+        .ingrdt {
+            width: 400px;
+            height: 300px;
+            float: left;
+            background-color: rgba(255, 166, 0, 0.541);
+            margin-top: 10px;
+            margin-right: 10;
+            margin-bottom: 10;
+            box-shadow: 10px 10px 8px 10px rgba(61, 56, 23, 0.411);
+        }
+        
+        h1 {
+            color: #3a2a00;
+            font-weight: bolder;
+            font-size: 40px;
+            text-decoration: underline;
+            font-family: Arial;
+            text-transform: uppercase;
+        }
+        
+        .imgingre {
+            width: 382px;
+            height: 260px;
+            float: right;
+            background-color: black;
+            margin-top: 30px;
+            box-shadow: 10px 10px 8px 10px rgba(97, 85, 29, 0.5);
+        }
+        
+        .franjasup h2 {
+            color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-left: 200px;
+            justify-content: center;
+        }
